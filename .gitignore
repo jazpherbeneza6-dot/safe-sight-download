@@ -36,3 +36,7 @@ tmp/
 *.mp4
 recording_*.json
 scratchpad_*.md
+
+.gitignore
+.vercel
+.env*.local
