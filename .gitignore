@@ -1,0 +1,38 @@
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build outputs
+dist/
+build/
+out/
+
+# Agent / Tool specific
+.agents/
+.agent/
+.gemini/
+*.resolved
+*.resolved.*
+*.metadata.json
+tmp/
+/tmp/
+
+# Browser test artifacts
+*.webp
+*.mp4
+recording_*.json
+scratchpad_*.md
